@@ -1,4 +1,11 @@
 class Util:
+    displayword = ""
+    firstname = ""
+    lastname = ""
+
+    def __init__(self, firstname, lastname):
+        self.firstname = firstname
+        self.lastname = lastname
 
     def print_board(self, board):
         for row in board:
@@ -50,3 +57,24 @@ class Util:
                 if cell == str(choice):
                     board[row_index][cell_index] = symbol
                     return board
+
+    def setWord(self, word):
+        displayword = word
+
+    def checks(self, px2, hiddenwordarray):
+        print(self.displayword)
+
+
+"a" = 'a' 
+'a' = '0'
+
+
+name = { "firstname" => 'herbert', "lastname" => 'lemus'}
+print(name.firstname)
+print(name.lastname)
+
+"a" = "['a', '0']"
+
+"a" = "a" 
+
+"a" = 0 => "a"

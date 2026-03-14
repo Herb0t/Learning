@@ -8,7 +8,7 @@ board = [row1, row2, row3]
 isXTurn = True
 winner = False
 moves = 0
-util = Util()
+util = Util("herbert", "lemus")
 while not winner:
     util.print_board(board)
 
